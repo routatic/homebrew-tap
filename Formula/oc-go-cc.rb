@@ -1,25 +1,25 @@
 class OcGoCc < Formula
   desc "Proxy Claude Code requests to OpenCode Go API"
   homepage "https://github.com/samueltuyizere/oc-go-cc"
-  version "0.1.3"
+  version "0.1.4"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/samueltuyizere/oc-go-cc/releases/download/v0.1.3/oc-go-cc_darwin-arm64"
-      sha256 "dce41116e622aa15e0b8493c98e7b8615eae3afdc5e638959fcf97f44c19e5dd"
+      url "https://github.com/samueltuyizere/oc-go-cc/releases/download/v0.1.4/oc-go-cc_darwin-arm64"
+      sha256 "39f8e52f3c91d8b5a155ff42afcf76b38492ca48551bd6cbb88daa37e8d8cb75"
     else
-      url "https://github.com/samueltuyizere/oc-go-cc/releases/download/v0.1.3/oc-go-cc_darwin-amd64"
-      sha256 "25e7a94f905bac732724795fbc88ecde98c1d2000a5fc9fcad0023c24c3f35b4"
+      url "https://github.com/samueltuyizere/oc-go-cc/releases/download/v0.1.4/oc-go-cc_darwin-amd64"
+      sha256 "48c31c1f80993768aebfb0361d4e9361fafaf76600fbd41e64d05a8874a37b76"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/samueltuyizere/oc-go-cc/releases/download/v0.1.3/oc-go-cc_linux-amd64"
-      sha256 "6345da0ae9294c741b5e3c2fab12b947c4785950b3edfb323c7bf410434d9c03"
+      url "https://github.com/samueltuyizere/oc-go-cc/releases/download/v0.1.4/oc-go-cc_linux-amd64"
+      sha256 "2ce67cd4e5967d5b5a793afb878c99bd538bab1a9b3b0edfb27efab974e73003"
     else
-      url "https://github.com/samueltuyizere/oc-go-cc/releases/download/v0.1.3/oc-go-cc_linux-arm64"
-      sha256 "139fa8b897ed54fdca9c92314de92efff2b7406213b4971b7ce7ba84143553a5"
+      url "https://github.com/samueltuyizere/oc-go-cc/releases/download/v0.1.4/oc-go-cc_linux-arm64"
+      sha256 "66e81cb69fa117b719a387dfbd8adbbf2d20727ef9d346018cde13e2390b7349"
     end
   end
 
