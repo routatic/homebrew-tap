@@ -1,25 +1,25 @@
 class RoutaticProxy < Formula
   desc "Proxy Claude Code requests to OpenCode Go API"
   homepage "https://github.com/routatic/proxy"
-  version "0.3.9"
+  version "0.4.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/routatic/proxy/releases/download/v0.3.9/routatic-proxy_darwin-arm64"
-      sha256 "d8a4d8470deeb0a3b276d4caa3f5411375d40a81e35acba26effd5439048003a"
+      url "https://github.com/routatic/proxy/releases/download/v0.4.0/routatic-proxy_darwin-arm64"
+      sha256 "ae3805d9501d23a21628e3fe3f878689de8c19a89157cc12538d8c88e248fa4f"
     else
-      url "https://github.com/routatic/proxy/releases/download/v0.3.9/routatic-proxy_darwin-amd64"
-      sha256 "c8b6663b963de7424e50d1f930dcd3bb6c3b7d4e3bd8aa2ba7aabf7ab4bd324f"
+      url "https://github.com/routatic/proxy/releases/download/v0.4.0/routatic-proxy_darwin-amd64"
+      sha256 "2d198fcb111a79b78a5bdc5875a781cb797c787688c9d68d0b43c500f8024fe5"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/routatic/proxy/releases/download/v0.3.9/routatic-proxy_linux-amd64"
-      sha256 "8df27bef2603969f00e830b6869d10d0e2fec29ea3046e90de7c962311421768"
+      url "https://github.com/routatic/proxy/releases/download/v0.4.0/routatic-proxy_linux-amd64"
+      sha256 "f6a81e9d701e328a6f6519b6618614543d9eb22f534adafa30ff45080c6b6125"
     else
-      url "https://github.com/routatic/proxy/releases/download/v0.3.9/routatic-proxy_linux-arm64"
-      sha256 "ccff974b02401f51ba5b3569099f2eeb0f5a6352dcf7cd9539829b20bdd6bde7"
+      url "https://github.com/routatic/proxy/releases/download/v0.4.0/routatic-proxy_linux-arm64"
+      sha256 "ecbaf207a94f0f518a364dcbfd7c45846c2c8237453f37bcd940a4062fd322a3"
     end
   end
 
